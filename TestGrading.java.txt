@@ -34,7 +34,7 @@ public class TestGrading {
             }
         }
 
-        /*this condition can be replaced by a ternary operator example : test.setStatus(grade < 5 ? "Failed" : "Passed"); That way you cut some lines of your code and makes it cleanner*/
+        /*this condition can be replaced by a ternary operator example : test.setStatus(grade < 5 ? "Failed" : "Passed"); This way you cut some lines of your code and makes it cleanner*/
         if(grade < 5){
             test.setStatus("Failed");
         }
@@ -43,7 +43,7 @@ public class TestGrading {
         return grade;
     }
 
-    /*this function could be replaced by nested ternary operator on return expression of ProcessTest function, example: return (grade > 8 ? 2 : grade > 5 ? 1 : 0); That way you dont need a whole function to calculate a small condition*/
+    /*this function could be replaced by nested ternary operator on return expression of ProcessTest function, example: return (grade > 8 ? 2 : grade > 5 ? 1 : 0); This way you dont need a whole function to calculate a small condition*/
     public int passfail(){
 
         int pass = 0;
